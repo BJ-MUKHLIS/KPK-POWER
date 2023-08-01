@@ -11,7 +11,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python TIGER.py)
+        os.system('python Bj-khan.py)
 except:pass
         
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
@@ -46,12 +46,10 @@ for agent in range(10000):
         ugen.append(fullagnt)
 
 
-
-        
         
 logo=("""\033[1;31m
-                   888    d8P       8888888b.       888    d8P \033[1;34mZ\033[1;37m  
-                   888   d8P        888   Y88b      888   d8P \033[1;34mM\033[1;37m   
+                   888    d8P       8888888b.       888    d8P \033[1;34mZ\033[;37m  
+                   888   d8         888   Y88b      888   d8P \033[1;34mM\033[1;37m   
                    888  d8P         888    888      888  d8P \033[1;34mU033[1;37m    
                    888d88K          888   d88P      888d88K \033[1;34mK\033[1;37m     
                    8888888b         8888888P"       8888888b \033[1;34mH033[1;7m  
@@ -205,7 +203,7 @@ def public():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python TIGER.py)
+                os.system('python Bj-khan.py)
         except requests.exceptions.ConnectionError:
                 exit(f' No internet connection')
         except (KeyError,IOError):
@@ -278,7 +276,7 @@ def menu():
                                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                                 linex()
                                 input(' Press enter to back ')
-                                os.system('python TIGER.py)
+                                os.system('python Bj-khan.py)
                         elif xd in ['2','02']:
                                 import dump
                                 dump.Main()
@@ -340,7 +338,7 @@ def pak():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python TIGER.py)
+                os.system('python Bj-khan.py)
 def bd():
                 user=[]
                 clear()
@@ -370,7 +368,7 @@ def bd():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python TIGER.py)
+                os.system('python Bj-khan.py)
 def gmail ():
                 os.system('rm -rf .re.txt')
                 clear()
@@ -425,7 +423,7 @@ def gmail ():
                 print(' Total OK/CP: '+str(len(oks))+'/'+str(len(cps)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python TIGER.py)
+                os.system('python Bj-khan.py)
 def ffb(ids,names,passlist):
         global loop,oks,cps
         sys.stdout.write('\r\r\033[1;37m [MUKHLIS-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
